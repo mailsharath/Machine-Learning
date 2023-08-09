@@ -8,6 +8,5 @@ def reverse_array(nums):
     return nums[::-1]
 
 
-output_string = reverse_array(input('Enter a string or list:'))
+print(reverse_array(input('Enter a string or list:')))
 
-print(output_string)
