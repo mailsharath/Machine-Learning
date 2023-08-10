@@ -12,10 +12,9 @@ def insert_element_at_position(nums, element, position):
     return nums
 
 
-nums = [2, 4, 5, 6, -1]
-element = 3
-position = 2
+nums1 = [2, 4, 5, 6, -1]
+element1 = 3
+position1 = 2
 
 
-print(insert_element_at_position(nums, element, position))
-
+print(insert_element_at_position(nums1, element1, position1))

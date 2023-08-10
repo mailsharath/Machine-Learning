@@ -10,7 +10,7 @@ def find_first_occurrence(s, to_find):
     return x
 
 
-s = "interview"
-to_find = "e"
+s1 = "interview"
+to_find1 = "e"
 
-print(find_first_occurrence(s, to_find))
+print(find_first_occurrence(s1, to_find1))

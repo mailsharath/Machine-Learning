@@ -9,6 +9,6 @@ def uppercase_to_lowercase(s):
     return s.lower()
 
 
-s = 'My NAME is SHARATH'
+s1 = 'My NAME is Sharath'
 
-print(uppercase_to_lowercase(s))
+print(uppercase_to_lowercase(s1))

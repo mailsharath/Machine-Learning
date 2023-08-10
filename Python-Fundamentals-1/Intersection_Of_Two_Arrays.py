@@ -14,7 +14,7 @@ def get_intersection_with_maintained_frequency(a, b):
     return res
 
 
-a = [4, 2, 2, 3, 1]
-b = [2, 2, 2, 3, 3]
+a1 = [4, 2, 2, 3, 1]
+b1 = [2, 2, 2, 3, 3]
 
-print(get_intersection_with_maintained_frequency(a, b))
+print(get_intersection_with_maintained_frequency(a1, b1))

@@ -28,7 +28,6 @@ def get_pivot_index(numbers):
     return -1
 
 
-numbers = [2, 3, 1, -1, 1, 1, 4]
+numbers1 = [2, 3, 1, -1, 1, 1, 4]
 
-print(get_pivot_index(numbers))
-
+print(get_pivot_index(numbers1))

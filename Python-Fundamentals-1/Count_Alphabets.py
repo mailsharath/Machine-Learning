@@ -12,6 +12,6 @@ def count_alphabets(s):
     return i
 
 
-s = "#aBdj12C"
+s1 = "#aBdj12C"
 
-print(count_alphabets(s))
+print(count_alphabets(s1))

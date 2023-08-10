@@ -9,4 +9,3 @@ def reverse_array(nums):
 
 
 print(reverse_array(input('Enter a string or list:')))
-
