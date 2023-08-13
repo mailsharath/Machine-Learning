@@ -5,6 +5,7 @@ def reverse_words(s):
     Returns:
      str
     """
+
     s1 = s.strip()
     s2 = s1.split()
     s2.reverse()
