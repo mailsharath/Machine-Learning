@@ -16,5 +16,5 @@ def two_sum1(nums, target):
     return [-1, -1]
 
 
-nums1 = [1, 9, 8, 4]
-print(two_sum1(nums1, 10))
+nums1 = [1, 1, 9, 8, 4]
+print(two_sum(nums1, 2))
