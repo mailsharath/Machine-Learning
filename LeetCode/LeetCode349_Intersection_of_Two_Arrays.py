@@ -1,5 +1,5 @@
 def intersection_of_arrays(nums1, nums2):
-    intersection  = []
+    intersection = []
     for item in nums1:
         if item in nums2:
             if item not in intersection:

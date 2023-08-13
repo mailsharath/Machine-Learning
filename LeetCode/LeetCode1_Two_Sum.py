@@ -8,7 +8,3 @@ def two_sum(nums, target):
 
 nums1 = [1]
 print(two_sum(nums1, 10))
-
-
-
-
