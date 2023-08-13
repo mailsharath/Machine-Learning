@@ -6,5 +6,15 @@ def two_sum(nums, target):
     return []
 
 
-nums1 = [1]
-print(two_sum(nums1, 10))
+def two_sum1(nums, target):
+    dict1 = {}
+    for i in range(len(nums)):
+        dict1[nums[i]] = i
+        complement = target - nums[i]
+        if complement in dict1 and dict1[complement] != i:
+            return [i, dict1[complement]]
+    return [-1, -1]
+
+
+nums1 = [1, 9, 8, 4]
+print(two_sum1(nums1, 10))
