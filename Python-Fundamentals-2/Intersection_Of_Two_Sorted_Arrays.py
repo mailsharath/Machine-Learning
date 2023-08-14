@@ -1,4 +1,11 @@
-def intersection_of_arrays(numbers1, numbers2):
+def get_intersection(numbers1, numbers2):
+    """
+    Args:
+     numbers1(list_int32)
+     numbers2(list_int32)
+    Returns:
+     list_int32
+    """
     intersection = []
     l1 = len(numbers1)
     l2 = len(numbers2)
@@ -7,6 +14,7 @@ def intersection_of_arrays(numbers1, numbers2):
             if item in numbers1:
                 if item not in intersection:
                     intersection.append(item)
+
 
     else:
         for item in numbers1:
@@ -18,8 +26,3 @@ def intersection_of_arrays(numbers1, numbers2):
         return intersection
 
     return [-1]
-
-
-nums3 = [2, 2, 3, 4, 5, 7, 8]
-nums4 = [1, 2, 2, 3, 4, 5, 7]
-print(intersection_of_arrays(nums3, nums4))
