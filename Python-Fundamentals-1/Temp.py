@@ -18,7 +18,7 @@ def find_winner(votes):
     for j, k in results.items():
         if k == max_value:
             winner.append(j)
-
+    winner.sort()
     return winner[0]
 
 
