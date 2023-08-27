@@ -37,4 +37,31 @@ def blackjack(a,b,c):
     '''
     Blackjack
     '''
-    
+    if a+b+c <= 21:
+        return a+b+c
+    elif a+b+c > 21 and (a==11 or b==11 or c==11) and a+b+c-10 <= 21:
+        return a+b+c-10
+    return 'Bust'
+
+
+result_total = blackjack(9,9,11)
+print(result_total)
+
+
+def summer_69(arr):
+    '''
+    Summer of 69
+    '''
+    sum_check = True
+    sum_total = 0
+    for item in arr:
+        if item != 6 and sum_check:
+            sum_total += item
+        elif item == 6:
+            sum_check = False
+        elif item == 9 and not sum_check:
+            sum_check = True
+    return sum_total
+
+result_sum = summer_69([2, 1, 6, 9, 9, 11])        
+print(result_sum)
